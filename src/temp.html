@@ -15,25 +15,22 @@
 </head>
 
 <body>
-  <table style="padding: 1rem; ">
-    <tr>
-      <td style="vertical-align: top;">
-        <img src="{bg.webpevent_image_url}" width="85" height="85" style="border-radius: 4px;" />
-      </td>
-      <td
-        style="padding: 0 0 0 1rem; min-height: 85px; font-family: sans-serif; display: flex; flex-direction: column; margin-bottom: 30px;">
-        <p style="color: #64753D; font-size: 13px; margin: 0px 0px 2px 0px">
-          Sunday, Nov 27 at 11:30 AM EST
-        </p>
-        <h3 style="color: #212826; font-size: 17px; font-weight: 650; margin: 0px; max-width: 400px;">
-          {title}
-        </h3>
-        <p
-          style="background-color: #64753D; width: 120px; height: 25px; margin-top: auto; margin-bottom: 0px; display: grid; place-items: center;">
-          <a href="{event_website}" style="text-decoration: none; color: #eee; font-size: 13px;">Reserve Now</a>
-        </p>
-      </td>
-    </tr>
+  <table style="padding: 1rem;">
+    <tbody>
+      <tr>
+        <td style="vertical-align: top;"><img src="{event_image_url}" width="85" height="85"
+            style="border-radius: 4px;" /></td>
+        <td
+          style="padding: 0 0 0 1rem; min-height: 85px; font-family: sans-serif; display: flex; flex-direction: column;">
+          <p style="color: #64753d; font-size: 13px; margin: 0px 0px 2px 0px;">{start_date|l, F j} at {start_time|g:i A
+            T}</p>
+          <h3 style="color: #212826; font-size: 17px; font-weight: 650; margin: 0px; max-width: 400px;">{title}</h3>
+          <p
+            style="background-color: #64753d; width: 120px; height: 25px; margin-top: auto; margin-bottom: 0px; display: grid; place-items: center;">
+            <a style="text-decoration: none; color: #eee; font-size: 13px;" href="{event_website}">RSVP Now</a></p>
+        </td>
+      </tr>
+    </tbody>
   </table>
 </body>
 
