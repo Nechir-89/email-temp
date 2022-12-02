@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Temp</title>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td style="vertical-align:bottom;padding-right:10px;">
+        <img src="{event_image_url}" width="50" height="50">
+      </td>
+      <td>
+        <p>
+          <strong style="font-size:larger;">
+            <a href="{event_website}">{title}</a>
+          </strong>
+          <br>
+          {start_date} @ {start_time}{if_end_time} to {end_time}{/if_end_time}{if_location_name} at
+          {location_name}{/if_location_name}</p>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
