@@ -6,22 +6,72 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Email Temp</title>
+  <style>
+    body {
+      margin: 0px;
+    }
+  </style>
+
 </head>
 
 <body>
-  <table>
-    <tr>
-      <td style="vertical-align:bottom;padding-right:10px;">
-        <img src="{event_image_url}" width="50" height="50">
+  <table style="background-color: #212826; padding: 1rem; ">
+    <tr style="padding-top: 25px;">
+      <td style="vertical-align: top;">
+        <img src="../unnamed2.jpg" width="85" height="85" style="border-radius: 4px;">
+        <!-- <img src="{bg.webpevent_image_url}" width="85" height="85" style="border-radius: 4px;"> -->
       </td>
-      <td>
-        <p>
+      <td style="padding-left: 1rem; font-family: sans-serif; vertical-align: top;">
+        <!-- <p>
           <strong style="font-size:larger;">
+            <a href="{event_website}">Find Love and Friendship: An International Twist</a>
             <a href="{event_website}">{title}</a>
           </strong>
           <br>
           {start_date} @ {start_time}{if_end_time} to {end_time}{/if_end_time}{if_location_name} at
-          {location_name}{/if_location_name}</p>
+          {location_name}{/if_location_name}</p> -->
+        <!-- a paragraph for date and time -->
+        <p style="color: #dfdfdf; font-size: 13px; margin: 0px">
+          Sunday, Nov 27  at 11:30 AM EST
+        </p>
+        <!-- a paragraph for title -->
+        <h3 style="color: #FFF; font-size: 17px; font-weight: 650; margin: 0px">
+          The Artists Corner
+        </h3>
+        <!-- a paragraph for the event link -->
+        <p style="margin: 16px 0 25px 0 ; display: inline-block; background-color: #64753D; width: 120px; height: 25px; display: grid
+        ; place-items: center; vertical-align: bottom;">
+          <a href="/" style="text-decoration: none; color: #eee; font-size: 13px;">Reserve Now</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+        <img src="../unnamed.jpg" width="85" height="85" style="border-radius: 4px;">
+        <!-- <img src="{bg.webpevent_image_url}" width="85" height="85" style="border-radius: 4px;"> -->
+      </td>
+      <td style="padding-left: 1rem; font-family: sans-serif; vertical-align: top;">
+        <!-- <p>
+          <strong style="font-size:larger;">
+            <a href="{event_website}">Find Love and Friendship: An International Twist</a>
+            <a href="{event_website}">{title}</a>
+          </strong>
+          <br>
+          {start_date} @ {start_time}{if_end_time} to {end_time}{/if_end_time}{if_location_name} at
+          {location_name}{/if_location_name}</p> -->
+        <!-- a paragraph for date and time -->
+        <p style="color: #dfdfdf; font-size: 13px; margin: 0px">
+          Monday, Nov 28 at 02:00 PM EST
+        </p>
+        <!-- a paragraph for title -->
+        <h3 style="color: #FFF; font-size: 17px; font-weight: 650; margin: 0px">
+          Find Love and Friendship: An International Twist (This is a Network event)
+        </h3>
+        <!-- a paragraph for the event link -->
+        <p style=" margin: 16px 0 25px 0 ; display: inline-block; background-color: #64753D; width: 120px; height: 25px; display: grid
+        ; place-items: center;">
+          <a href="/" style="text-decoration: none; color: #eee; font-size: 13px;">Reserve Now</a>
+        </p>
       </td>
     </tr>
   </table>
